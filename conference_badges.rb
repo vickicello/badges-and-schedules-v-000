@@ -8,9 +8,8 @@ end
 
 def assign_rooms(list)
   newlist = []
-  list.each_with_index do |name, index| 
+  list.each_with_index do |name, index|
     newlist.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
   end
   newlist
 end
-
