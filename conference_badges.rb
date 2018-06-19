@@ -13,3 +13,8 @@ def assign_rooms(list)
   end
   newlist
 end
+
+def printer(list)
+  batch_badge_creator(list).each { |name| puts name }
+  assign_rooms(list).each { |name| puts name }
+end
